@@ -15,7 +15,7 @@ export default function Chat() {
     return (
         <Fragment>
 
-        <div class="container">
+        <div class="container font-poppins">
             <div class="chatbox font-poppins mb-20">
                 <div class="chatbox__support">
                     <div class="chatbox__header">

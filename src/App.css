@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.loader {
+  background: rgb(10,0,117);
+  background: linear-gradient(90deg, rgba(10,0,117,1) 2%, rgba(32,27,184,1) 36%, rgba(81,84,237,1) 73%, rgba(119,127,249,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

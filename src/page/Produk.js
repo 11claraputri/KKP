@@ -1,11 +1,11 @@
 
 import React from 'react'
-import Chat from '../components/Chat1'
+import Sproduk from './Sproduk'
 
 function Produk() {
   return (
     <div>
-      <Chat/>
+      <Sproduk/>
       
     </div>
   )
