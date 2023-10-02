@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useState, useEffect } from "react";
 import Home from './page/Home';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -7,24 +6,13 @@ import Layanan from './page/Layanan';
 import Produk from './page/Produk';
 import Chat1 from './components/Chat1';
 import Fpengajuan from './page/Fpengajuan';
-import Loading from "./components/Loading";
-
-
-
-
+import './App.css';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 10)
-  })
+
   return (
     <>
-     {isLoading ? (
-      <Loading />
-      ) : (
+    
     <BrowserRouter>
      <Switch>
        <Route exact path='/' component={Home}/>
@@ -37,7 +25,7 @@ function App() {
        
      </Switch>
    </BrowserRouter>
-      )}
+      
  </>
   );
 }
